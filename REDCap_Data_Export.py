@@ -1,4 +1,13 @@
-### Basic Usage ###
+#-*-coding:utf-8-*-  
+
+'''
+Created on 10-06-2015
+@author: Bianka Marlen Hubert,
+         Yingcheng Sun
+
+JSON Data Export from REDCap DB
+'''
+
 from requests import post
 
 # Access through API

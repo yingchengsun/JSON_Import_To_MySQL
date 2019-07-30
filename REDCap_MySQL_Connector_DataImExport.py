@@ -43,7 +43,7 @@ ch.close()  #Ends curl session
 
 ### Data Import In MySQL DB ###
 try:
-    conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='1234',port=3306)  #Connects to MySQLdb
+    conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='****',port=3306)  #Connects to MySQLdb
     cur=conn.cursor()
     
     cur.execute('create database if not exists redcap')  #Creates schema

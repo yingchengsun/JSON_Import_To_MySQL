@@ -1,5 +1,12 @@
-### Data Import In MySQL DB ###
 #-*-coding:utf-8-*-  
+
+'''
+Created on 09-29-2015
+@author: Yingcheng Sun
+
+JSON Data Import To MySQL DB
+'''
+
 
 import MySQLdb
 import json
@@ -7,7 +14,7 @@ from collections import OrderedDict
 
 try:
         # Access to MySQLdb
-    conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='1234',port=3306,charset='utf8')
+    conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='****',port=3306,charset='utf8')
     cur=conn.cursor()
         # If doesn't already exist, create schema and table
     cur.execute('create database if not exists redcap')
